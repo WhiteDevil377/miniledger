@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:06,000
+MiniLedger | Sign in with a mock OTP
+
+2
+00:00:06,000 --> 00:00:21,000
+Summary: total lent, total repaid, outstanding
+
+3
+00:00:21,000 --> 00:00:31,000
+Required fields are validated before saving
+
+4
+00:00:31,000 --> 00:00:52,000
+Add a friend, amount, due date, and note
+
+5
+00:00:52,000 --> 00:01:03,000
+Save to PostgreSQL and update the totals
+
+6
+00:01:03,000 --> 00:01:15,000
+Find the new loan by searching a friend's name
+
+7
+00:01:15,000 --> 00:01:36,000
+Confirm repayment when the money comes back
+
+8
+00:01:36,000 --> 00:01:49,000
+Repayment updates the entry and summary
+
+9
+00:01:49,000 --> 00:02:02,000
+Switch between repaid and overdue filters
+
+10
+00:02:02,000 --> 00:02:25,000
+Loan data and the session persist after refresh
