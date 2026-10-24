@@ -207,13 +207,3 @@ Errors return an appropriate HTTP status and `{ "error": "Readable message" }`, 
 - **Schema:** the initial setup is idempotent. Future schema changes should use numbered migrations rather than editing an already applied schema.
 
 The mock OTP flow is deliberately for this assignment. A deployed product would need an SMS provider, HTTPS, managed secrets, shared rate-limit storage for multiple API instances, and session/challenge cleanup. The app has no offline mutation queue or notification service.
-
-## Submission
-
-- Use [the recording walkthrough](docs/DEMO.md) for a 2–3 minute demonstration.
-- A captioned, silent [browser demo video](docs/miniledger-browser-demo.mp4) is included for review. Upload it to Loom/Drive to create the requested sharing link, or replace it with your own phone recording.
-- Read [the interview guide](docs/INTERVIEW.md) to understand the implementation and tradeoffs.
-- See [the verification record](docs/VERIFICATION.md) for completed checks and remaining device verification.
-- Follow [the submission checklist](docs/SUBMISSION.md) to publish the repository and share the recording.
-
-The project was developed with AI assistance. Review and understand the code before discussing it in an interview.
